@@ -1,0 +1,22 @@
+h1 {
+    color: slateblue;
+}
+
+img {
+    width: 400px;
+    border-radius: 30px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: peru;
+    padding: 50px;
+    border: 5px solid tan;
+    border-radius: 30px;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
