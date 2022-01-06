@@ -1,0 +1,8 @@
+¿Para que se usa una variable ? 
+Una variable es como una cajita que guarda juguetes. Entonces sabemos que en la caja hay algo por ejemplo juguetes.
+Podemos definir la variable con la palabra reservada Var , es la forma más general de definirla.  Pero también tenemos otra palabra para definir la variable como la Const que significa constante por ejemplo cuando no queremos cambiar el valor de la variable  por ejemplo si decimos que en la caja hay  juguetes entonces no la podemos agarrar la caja ponerles  basura, por esto decimos que es constante no cambia lo que hay dentro de la caja. 
+
+¿Qué es un String?
+es un tipo de dato que es utilizado en Java String, se usa colocando comillas'' y en medio la palabras que queramos poner  por ejemplo "Soy Naomi"
+Si queremos sumarle algo más podemos poner el + ; esto se conoce como concatenación. por ejemplo "Soy Naomi" + " y " + "tengo 20 años. ". 
+El resultado sería esta oración: Soy Naomi y tengo 20 años.
