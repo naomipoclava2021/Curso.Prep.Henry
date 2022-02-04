@@ -33,19 +33,19 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x+y;
+  return x + y ;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return x-y;
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x*y;
+  return x * y;
 }
 
 function divide(x, y) {
@@ -128,6 +128,7 @@ function esImpar(num) {
     return false;
   }
 }
+
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
@@ -186,7 +187,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + '!';
+  return str.concat('!');
 }
 
 function combinarNombres(nombre, apellido) {
