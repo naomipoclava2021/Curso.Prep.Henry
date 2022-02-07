@@ -113,7 +113,7 @@ function numeroMasGrande(numeros) {
       mayor = numeros [i]
     }
   }
-  return mayor
+  return mayor;
 }
 
 

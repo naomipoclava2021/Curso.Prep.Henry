@@ -6,7 +6,7 @@ const nuevaString = "Naomi";
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 12;
 // Crea una variable booleana:
-const nuevoBool = true;
+const nuevoBool = false;
 
 const nuevaResta = 10 - 5 === 5;
 
