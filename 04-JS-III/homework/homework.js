@@ -17,6 +17,7 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  return array.length
 }
 
 
@@ -25,12 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  // for (var i = 0; i < array.length; i++){
-  //   array[i] = array[i] +1
-  // }
-  // return array;
-  var array = array.map ((elemento) => elemento +1)
-  return array1;
+
+  for (var i = 0; i < array.length ; i++){
+    array[i] = array[i] + 1
+  }
+  return array;
 }
 
 
@@ -82,10 +82,10 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
   var suma = 0
-  for (var i = 0; i< numeros.length; i ++) {
-    suma = suma + numero[i];
+  for (var i = 0 ; i < numeros.length; i++){
+    suma = suma + numeros[i]
   }
-  return suma
+  return suma;
 }
 
 
@@ -93,12 +93,11 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  var suma = 0;
-  var promedio = 0;
-  for (var i =0; i< resultadosTest.length; i++){
-    suma= suma + resultadosTest
+  var acumulador = 0
+  for ( i = 0; i< resultadosTest.length; i++){
+    acumulador = acumulador + resultadosTest[i]
   }
-  promedio = suma / resultadosTest.length
+  var promedio = acumulador / resultadosTest.length
   return promedio
 }
 
@@ -172,12 +171,12 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  var comparacion = arreglo[0]
-
-  for(var i = 1; i < arreglo.length; i++){
-    if(arreglo[i] === comparacion) return false
+  for (i = 1; i < arreglo.length; i++){
+    if (arreglo[0] !== arreglo[i]){
+      return false;
+    } 
   }
-  return true
+  return true;
 } 
 
 
@@ -201,13 +200,14 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
-  var resultado = []
-  for(var i = 0; i < array.length; i++){
-    if (array[i] > 100){
-      resultado.push(array)
+  var nuevoArray = [];
+
+  for( var i = 0; i< array.length; i++){
+    if (array[i] > 100)  {
+      nuevoArray.push(array[i])
     }
   }
-  return resultado;
+  return nuevoArray;
 }
 
 
