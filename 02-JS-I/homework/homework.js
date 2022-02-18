@@ -133,7 +133,6 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  //return num*num
   return Math.pow(num,2);
 }
 
@@ -158,7 +157,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.ceil (num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {

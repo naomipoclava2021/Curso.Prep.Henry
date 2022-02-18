@@ -67,6 +67,16 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  // function arrayContiene(array, elemento) {
+  // Comprueba si el elemento existe dentro de "array"
+  // Devuelve "true" si está, o "false" si no está
+  // Tu código:
+  // return array.includes(elemento)
+  //if(array.includes(elemento)){
+  //  return true;
+  //}
+  //return false;
+  //}
   // return array.includes(elemento)
   for (var i = 0; i < array.length; i++){
     if (array[i] === elemento){
